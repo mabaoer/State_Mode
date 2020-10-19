@@ -4,7 +4,7 @@ import ui.Player;
 
 public class ReadyState extends State {
 
-    public ReadyState(Player player) {
+    ReadyState(Player player) {
         super(player);
     }
 

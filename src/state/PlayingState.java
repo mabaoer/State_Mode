@@ -18,6 +18,7 @@ public class PlayingState extends State {
     @Override
     public String onPlay() {
         player.changeState(new ReadyState(player));
+        player.musicObject.stopMusic();
         return "Paused...";
     }
 

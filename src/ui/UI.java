@@ -19,6 +19,7 @@ public class UI {
         frame.getContentPane().add(context);
         JPanel buttons = new JPanel(new FlowLayout(FlowLayout.CENTER));
         context.add(textField);
+        textField.setText("Locked...");
         context.add(buttons);
 
         // Context delegates handling user's input to a state object. Naturally,

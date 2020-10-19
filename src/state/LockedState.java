@@ -4,7 +4,7 @@ import ui.Player;
 
 public class LockedState extends State {
 
-    LockedState(Player player) {
+    public LockedState(Player player) {
         super(player);
         player.setPlaying(false);
     }
