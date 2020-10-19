@@ -14,9 +14,8 @@ public class Player {
     private final List<String> playlist = new ArrayList<>();
     private int currentTrack = 0;
     private int music_num;
-    String filepath = "";
+    private String filepath = "";
     public musicStuff musicObject = new musicStuff();
-
 
     public Player() {
         this.state = new LockedState(this);
