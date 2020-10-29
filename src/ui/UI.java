@@ -12,7 +12,7 @@ public class UI {
     }
 
     public void init() {
-        JFrame frame = new JFrame("Test player");
+        JFrame frame = new JFrame("State_Mode Player");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         JPanel context = new JPanel();
         context.setLayout(new BoxLayout(context, BoxLayout.Y_AXIS));
